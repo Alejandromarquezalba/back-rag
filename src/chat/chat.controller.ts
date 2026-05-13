@@ -6,7 +6,7 @@ import { IaService } from '../ia/ia.service';
 export class ChatController {
     constructor(
         private supabase: SupabaseService,
-        private ia: IaService
+        private ia: IaService,
     ) {}
 
     @Post()

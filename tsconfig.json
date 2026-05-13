@@ -19,6 +19,6 @@
     "noFallthroughCasesInSwitch": false,
     "rootDir": "./src"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "test-supabase.ts"],
   "exclude": ["node_modules", "dist"]
 }
