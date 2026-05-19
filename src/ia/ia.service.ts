@@ -61,10 +61,12 @@ export class IaService {
                 
                 **Instrucciones:**
                 1. Responde SOLO usando los productos de la lista.
-                2. Menciona los nombres y PRECIOS exactos.
-                3. Ofrece ayuda adicional (Ej: "¿Necesita que le prepare el pedido?").
-                4. Responde en español, como si estuvieras en una farmacia.
-            `,
+                2. Menciona el nombre, precio y si requiere receta médica.
+                3. Si el producto requiere receta, aclaralo siempre.
+                4. Ofrece ayuda adicional.
+                5. Responde en español, como si estuvieras en una farmacia.
+                6. Siempre recomendá consultar con un médico antes de tomar cualquier medicamento.
+                `,
             },
         ],
         });
