@@ -7,7 +7,7 @@ async function bootstrap() {
   // Habilitar CORS para el frontend
   app.enableCors({
     origin: ['https://front-rag.vercel.app', 'http://localhost:5173'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    methods: 'GET,HEAD,PUT,POST',
     credentials: true,
   });
   
